@@ -20,7 +20,7 @@ Good luck!
 
 ## Input files
 
-* Under subdirectories test and train the following files respectively: 
+* Find the following files under subdirectories test and train respectively: 
   * X\_test.txt and X\_train.txt
   * subject\_test.txt and subject\_train.txt
   * y\_test.txt and y\_train.txt
@@ -28,8 +28,8 @@ Good luck!
 
 ## Steps to be executed
 
-* First unzip the data set directory "UCI HAR Dataset" under R data directory ("C:/Users/iari/Documents/R/data/UCI HAR Dataset")
-* Then executed the script "run\_analysis.R" which performs:
+* First unzip the data set directory "UCI HAR Dataset" under R data directory ("~/Documents/R/data/UCI HAR Dataset")
+* Then execute the script "run\_analysis.R" which performs:
   * Per input directory: 
     * reads the input files into data frames
     * updates headers of X\_\* with feature names, subject\_\* with subjects, y\_\* with activityIId & activity name
@@ -42,4 +42,4 @@ Good luck!
 
 ## Output files
 
-* Writes the two final datasets into two files.
+* Writes the two tidy datasets into the two tidy files.
